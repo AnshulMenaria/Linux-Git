@@ -1,0 +1,30 @@
+Linux Commands:
+
+pwd - print working directory
+ls - list folders and files
+mkdir - make/create new folder/directory
+rmdir - remove/delete new folder/directory if its empty
+cd folder name/filename - access the folder or file and make it current working file
+cd .. - get back to last folder
+touch filename.extension - creates new file 
+rm - remove/delete file
+
+rm -rv foldername - it deletes every file in folder and then deletes folder
+(r means recursion , v describe what we deleted and if we dont want to see we will not rite v we will write  only -r)
+
+------------------------------------------------------------------------------------------------------
+Class Assignment:
+Create Directory - Mayank
+Access Directory
+Create 6 File
+Create 4 Files
+Remove 3 Files
+Remove 2 Folders
+Check Remaining Files
+Delete Mayank Folder
+-------------------------------------------------------------------------------------------------------
+Learning Assignment:
+Linux Vs Unix
+Linux Importance
+Command => cp and mv
+-------------------------------------------------------------------------------------------------------
