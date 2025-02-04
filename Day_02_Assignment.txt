@@ -1,0 +1,45 @@
+Tar Command:
+
+The tar command in Linux is used to create, extract, and manipulate archive files.
+It stands for Tape Archive and is commonly used to bundle multiple files and directories into a single archive file. 
+The tar command does not compress files by default but is often used with compression utilities like gzip (.tar.gz) or bzip2 (.tar.bz2) to reduce file size.
+
+Syntax:
+1.) Archive:
+
+	tar -cvf archive.tar file1 file2 directory/
+
+	-c :- creats an archive
+	-v :- shows progress
+	-f :- specific file name
+
+2.) Extract:
+
+	tar -xvf archive.tar
+	-x :- Extracts an archive
+	-v :- shows progress
+	-f :- specific file name
+
+3.) Creating compressed tar:
+
+	tar -czvf archive.tar.gz file1 file2 directory/
+	-z :- compress using gzip
+
+4.) Extracting compressed tar:
+
+	tar -xzvf archive.tar.gz
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Why it is better than zip files:
+
+Better Compression Efficiency – When combined with gzip (.tar.gz) or bzip2 (.tar.bz2), tar archives are smaller than zip.
+
+Preserves File Metadata – Retains file permissions, ownership, and timestamps, which zip does not fully support.
+
+Efficient Multi-file Handling – tar archives files together before compressing, reducing redundancy, whereas zip compresses files individually.
+
+Faster Compression & Extraction – Due to its single-file approach, tar is often faster for large collections of files.
+
+Incremental Backups Support – tar can create incremental backups (--listed-incremental option), while zip lacks this feature.
+
+More Common in Linux & Unix Systems – tar is the standard archiving tool in Unix/Linux, while zip is more Windows-oriented.
