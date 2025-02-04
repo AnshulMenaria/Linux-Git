@@ -1,0 +1,89 @@
+Linux Commands:
+
+history - to check history of commands we used
+history -c - to clear the history  
+------------------------------------------------------------------------------------------------------------------------------------------
+
+cp - to copy a file
+syntax :- cp source destination
+
+example:
+a file in virat folder and we want to copy it in anushka folder
+
+:- cp /home/anshulmenaria/virat/worldcup.txt /home/anshulmenaria/Anushka
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+rm -rv * : remove all file and all content from main folder 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+ls /home/anshulmenaria/virat : using command with proper location we can run any command at any location even if we are not in that location
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+mv - to move a file
+syntax :- mv source destination
+
+example:
+a file in anushka folder and we want to move it in virat folder
+
+mv /home/anshulmenaria/anushka/worldcup.txt /home/anshulmenaria/virat/
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Class Assignment: 
+main folder 
+create folders aman and Aditya
+inside aman create 3 files
+copy first file from aman to Aditya
+move the second file from aman to Aditya
+copy the third file into Aditya but with new name(using cp)
+copy aman folder to Aditya folder
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+To copy a folder we use -r(recurssive which we used already in rm to delete folder which is not empty)
+cp /home/anshulmenaria/aman /home/anshulmenaria/aditya
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+echo "statement" - to print like printf in c and print in py
+
+echo "Hello World" > filename.txt - to store the statement or data in a file 
+
+cat filename.txt - to display the file content
+
+date > filename.txt - to store current date in file and removes the file older content
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Editors in Linux:
+
+vi (we use this because its given with OS by default)
+vim 
+nano
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Vi > Modes (There are several modes in vi)
+
+command mode => save,close,copy,undo,close
+insert mode => write/modify
+
+To switch from command mode to insert mode => Press I in keyboard
+
+To switch from insert mode to command mode => Press esc in keyboard
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+vi filename.txt - To access file in vi editor
+
+press i to insert
+after inserting press esc
+type ":wq" and press enter 
+
+after that check using cat filename.txt file had the text
+
+if you don't want to save file and quit type ":q!" if we write ":q" it will give error
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Learning Assignment:
+
+What is Tar command and how it is different from zip file
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
