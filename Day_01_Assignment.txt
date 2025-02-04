@@ -1,0 +1,26 @@
+Learning assignment:
+
+Linux vs Unix:
+Unix is the Older system and developed in the 1970s at AT&T’s Bell Labs. Mostly used in big companies and
+servers. It is expensive and requires licenses. It is stable & secure and used in critical systems like banks and
+airlines.
+Linux Inspired by Unix and Created in the 1990s as a free alternative. Open-source & Free for all and anyone can
+use or modify it. It runs on servers, desktops, and even mobile. More Community Support and constant updates
+from developers worldwide.
+In short: Unix is the old and corporate ancestor while Linux is the modern and open-source child
+
+---------------------------------------------------------------------------------------------------
+
+Linux importance
+ Linux is important because it’s free, fast and flexible
+Runs Everywhere.
+Super Secure.
+Open-source & Free.
+Stable & Reliable
+In short Linux is the backbone of the internet and tech world because it’s powerful, free, and super reliable!
+
+---------------------------------------------------------------------------------------------------
+
+Command => cp and mv command
+Cp -> Used to copy files or directories. The original file remains unchanged.
+Mv -> Used to move files (cut-paste) or rename them.
