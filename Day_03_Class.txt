@@ -1,0 +1,44 @@
+Linux Commands:
+
+press y two time - To copy line in vi editor in command mode
+press p - to paste in that editor
+
+press 2 then y two time : to copy two lines
+
+press d two times  - To cut the particular line
+
+Shift + G - To Go to last line in the file
+
+press g for two times - To Go on First line
+
+----------------------------------------------------------------------------------------------------------------------
+
+tar -rf tarfilename.tar filename.txt
+
+using -rf we can append more files in a existing tar file
+
+wget link -to download any file in Linux using file link
+
+yes "statment" - to tun statement for infinite times
+
+
+Class Assignment-
+
+create 2 folder name as work and backup
+inside work create 10 files
+create 3 folder
+copy any 2 files into backup folder
+move 4 files into backup
+copy the work folder to backup
+create tar file name aman inside backup folder 
+create any 1 file using touch command in backup
+append new file in tar
+delete work folder completelyD
+-----------------------------------------------------------------------------------------------------------------------
+
+Assignment:
+
+How To Copy a Single Word In VI Editor
+
+How To Delete a Single Character In Command Mode
+
